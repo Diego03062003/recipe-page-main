@@ -34,8 +34,8 @@ body {
 article {
     background-color: var(--White);
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    box-shadow: 0 4px 6px var(--Stone600);
+    padding: 1rem;
     max-width: 1440px;
     min-width: 320px;
 }
@@ -121,7 +121,7 @@ article .tabla-nutricion table tr td:last-child {
     font-weight: 600;
     
 }
-article .tabla-nutricion table td {
+article .tabla-nutricion table tr td {
     padding: 8px;
     border-bottom: 1px solid var(--Stone150);
 }
